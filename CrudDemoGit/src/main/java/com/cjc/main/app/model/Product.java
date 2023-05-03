@@ -24,7 +24,7 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 
-	private Integer Id;
+	private int pid;
 	private String productname,productinformation;
 	private Double productprise;
 	
