@@ -54,6 +54,12 @@ public class ProductServiceImpl implements ProductService {
 			return null;
 		}
 	}
+
+	@Override
+	public void delete(int pid) {
+		prodrepo.deleteById(pid);;
+		
+	}
 	
 	
 
