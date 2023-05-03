@@ -12,4 +12,6 @@ public interface ProductService {
 
 	public void delete(int pid);
 
+	public Iterable<Product> findbyname(String productname);
+
 }
